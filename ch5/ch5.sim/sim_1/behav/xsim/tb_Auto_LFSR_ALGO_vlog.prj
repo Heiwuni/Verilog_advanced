@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ch5.srcs/sources_1/new/Auto_LFSR_ALGO.v" \
+"../../../../ch5.srcs/sim_1/new/tb_Auto_LFSR_ALGO.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
